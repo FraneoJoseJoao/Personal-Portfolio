@@ -34,8 +34,8 @@ html{
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-image: url(../img/subindo.gif);
+    color: #fff;
 }
 
 /* Estilos do Header */
@@ -75,7 +75,7 @@ section {
 
 h2 {
     font-size: 2rem;
-    color: #333;
+    color: #fff;
     margin-bottom: 1rem;
 }
 
@@ -89,7 +89,7 @@ article {
 
 article h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: #fff;
 }
 
 article p {
@@ -108,13 +108,36 @@ article a:hover {
     text-decoration: underline;
 }
 
+#resources{
+    ul{
+        list-style: none;
+    }
+    ul li a{
+        color: #12c0db;
+        text-decoration: none;
+    }
+}
+
+#about{
+    ul{
+        gap: 20px;
+        list-style: none;
+    }
+    ul li a{
+        color: #007BFF;
+        text-decoration: none;
+    }
+}
+
 /* Estilos do Footer */
 footer {
-    background-color: #333;
+    background: linear-gradient(
+        to right, #fcb045, #543ab4,
+         #fd371d);
+    background-size: 400% 400%;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
