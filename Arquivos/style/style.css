@@ -247,14 +247,15 @@ section.especiliadades {
     
 
     h2{
+        font-size: 25px;
         background-color: #00000086;
-        padding: 5px;
+        padding: 20px;
         border-radius: 20px;
     }
 }
 
 section.especiliadades .flex {
-    gap: 60px;
+    gap: 40px;
 }
 
 .especiliadades .especialidades-box {
@@ -272,7 +273,7 @@ section.especiliadades .flex {
 }
 
 .especiliadades .especialidades-box h3 {
-    font-size: 28px;
+    font-size: 20px;
     margin: 15px 0;
 }
 
