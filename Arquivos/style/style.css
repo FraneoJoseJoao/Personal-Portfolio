@@ -280,7 +280,6 @@ section.especiliadades .flex {
 /* ESTILO DO SOBRE */
 section.sobre {
     padding: 80px 4%;
-    
 }
 
 section.sobre .flex {
@@ -296,12 +295,15 @@ section.sobre .flex {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
-    color: #fcb045;
 }
 
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
+}
+
+.sobre .txt-sobre span{
+    color: #fcb045;
 }
 
 .btn-social{
