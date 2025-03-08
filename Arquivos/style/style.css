@@ -295,6 +295,7 @@ section.sobre .flex {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
+    display: flex;
 }
 
 .sobre .txt-sobre p {
@@ -304,6 +305,7 @@ section.sobre .flex {
 
 .sobre .txt-sobre span{
     color: #fcb045;
+    margin-left: 10px;
 }
 
 .btn-social{
